@@ -1,0 +1,477 @@
+experiment,question_id,question,ground_truth,prediction,correct_exato,correct,formato_numero_puro,answer_extraction,parse_error,raw_response,prompt_tokens,completion_tokens,total_tokens,latency_seconds,llm_calls,is_percent_question,correct_escala_pct
+E0_direct_v4,0,"what was the total balance of letters of credit outstanding for the years of 2006 and 2007, combined?",93.4,93.4,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the total balance of letters of credit outstanding for the years of 2006 and 2007, combined, is:
+
+$41 million (2007) + $52.4 million (2006) = $93.4 million",1111,55,1166,28.49676309991628,1,False,True
+E0_direct_v4,1,what was the state street corporation value in 2013?,198.0,198,True,True,False,ultimo_numero_nao_ano,False,The state street corporation value in 2013 was $198.,598,14,612,3.0879504000768065,1,False,True
+E0_direct_v4,2,what were the total number of shares purchased?,4823020.0,4823020,True,True,False,ultimo_numero_nao_ano,False,The total number of shares purchased is 4823020.,886,13,899,3.110381899867207,1,False,True
+E0_direct_v4,3,"for 2012, what was the percentage of the adjustments related to aoci for afs securities and defined benefit pension and opeb plans as part of the tier 1 common under basel i rules?",0.02905,2.91,False,False,False,percentual,False,"To calculate the percentage of the adjustments related to AOCI for AFS securities and defined benefit pension and OPEB plans as part of the Tier 1 common under Basel I rules, we need to find the value of the adjustments related to AOCI for AFS securities and defined benefit pension and OPEB plans and then divide it by the Tier 1 common under Basel I rules.
+
+From the table, we can see that the value of the adjustments related to AOCI for AFS securities and defined benefit pension and OPEB plans is $4,077.
+
+The Tier 1 common under Basel I rules is $140,342.
+
+To find the percentage, we can divide the value of the adjustments by the Tier 1 common and multiply by 100:
+
+($4,077 / $140,342) * 100 = 2.91%
+
+So, the percentage of the adjustments related to AOCI for AFS securities and defined benefit pension and OPEB plans as part of the Tier 1 common under Basel I rules is approximately 2.91%.",1847,217,2064,8.647979400120676,1,True,True
+E0_direct_v4,4,"considering the amount of those 2003 earnings, what can be concluded to have been those operating earnings in 2002?",20452.85,23,False,False,False,percentual,False,"To find the operating earnings in 2002, we can use the fact that the operating earnings in 2003 were $205 million and the operating earnings in 2003 represented a 23% increase from 2002.
+
+Let x be the operating earnings in 2002. Then, we can set up the equation:
+
+205 = 1.23x
+
+To solve for x, we can divide both sides by 1.23:
+
+x = 205 / 1.23
+x = 166.67 million
+
+So, the operating earnings in 2002 were approximately $166.67 million.",1748,126,1874,6.478150499984622,1,False,False
+E0_direct_v4,5,"and what is the weighted-average period over which this cost will be recognized, in years?",2.1,2.2,False,False,False,ultimo_numero_nao_ano,False,"The weighted-average period over which the remaining unrecognized compensation expense for outstanding restricted stock and restricted stock units, including performance-based awards, as of March 31, 2012, will be recognized is 2.2 years.",1271,46,1317,4.293813200201839,1,False,False
+E0_direct_v4,6,what is the value of operating leases over the total minimum payments?,0.68368,68.24,False,False,False,percentual,False,"To answer the question, we need to find the value of operating leases and then divide it by the total minimum payments.
+
+The value of operating leases is $3430.0 (as calculated in the previous question).
+
+The total minimum lease payments are $5017.0 (as calculated in the previous question).
+
+Now, let's divide the value of operating leases by the total minimum payments:
+
+$3430.0 ÷ $5017.0 = 0.6824
+
+So, the value of operating leases over the total minimum payments is approximately 68.24%.",1216,117,1333,5.900592399761081,1,False,False
+E0_direct_v4,7,what was the value of pension plans for 2017?,3856.0,3856,True,True,False,ultimo_numero_nao_ano,False,"The value of pension plans for 2017 was $3,856 thousand.",1458,17,1475,3.660728800110519,1,False,True
+E0_direct_v4,8,what was the balance of total pci consumer loans in 2010?,19097.0,25544,False,False,False,ultimo_numero_nao_ano,False,The balance of total PCI consumer loans in 2010 was $25544 million.,880,18,898,3.261840700171888,1,False,False
+E0_direct_v4,9,what percentage change does this represent?,1.78431,178.02,False,False,False,percentual,False,"To find the percentage change, first, calculate the percentage change from 2008 to 2009:
+
+((910.0 / 510.0) * 100) = 178.02%
+
+So, the percentage change is 178.02%.",1141,53,1194,4.294316600076854,1,True,True
+E0_direct_v4,10,"and what was that percentage representation in the previous year, in 2011?",0.52288,28.9,False,False,False,percentual,False,"Based on the provided financial context, the total net revenues in 2011 were $8.26 billion, and the net revenues in equity securities (excluding ICBC) were $2,392 million.
+
+To find the percentage of total net revenues due to equity securities (excluding ICBC) revenues in 2011, you can divide the net revenues in equity securities (excluding ICBC) by the total net revenues and multiply by 100:
+
+($2,392 million ÷ $8,260 million) x 100 = 28.9%
+
+So, in 2011, the percentage of total net revenues due to equity securities (excluding ICBC) revenues was approximately 28.9%.",1356,142,1498,6.571801700163633,1,True,False
+E0_direct_v4,11,what is the value of the investment in 2014?,144.0,215,False,False,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the value of the investment in 2014 is $215.",533,21,554,3.161373000126332,1,False,False
+E0_direct_v4,12,what was the portion of non-cash items out of the total cash from operations in 2018?,0.12176,12.13,False,False,False,percentual,False,"To find the portion of non-cash items out of the total cash from operations in 2018, we can use the following calculation:
+
+Non-cash items in 2018: $287 million
+Cash from operations in 2018: $2357 million
+
+Percentage of non-cash items out of total cash from operations in 2018:
+
+($287 million / $2357 million) * 100% ≈ 12.13%
+
+So, the portion of non-cash items out of the total cash from operations in 2018 is approximately 12.13%.",1201,118,1319,5.823800300247967,1,True,True
+E0_direct_v4,13,what about the ending accrued warranty and related costs	in 2007?,230.0,230,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the ending accrued warranty and related costs in 2007 are $230 million.",1088,24,1112,3.6304675000719726,1,False,True
+E0_direct_v4,14,what is the difference between 100% and that increase?,99.77,77,False,False,False,apos_answer,False,"Based on the provided financial context, the difference between 100% and the increase is:
+
+100% - 23% = 77%
+
+So, the answer is 77.",1706,37,1743,4.248516200110316,1,True,False
+E0_direct_v4,15,and the specific value for 2008 again?,36836.0,36836.0,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided context, the specific value for 2008 again is:
+
+36836.0",1475,21,1496,3.752071099821478,1,False,True
+E0_direct_v4,16,"what percentage, then, of the liquidity did that amount represent?",0.36931,36.92,False,False,False,percentual,False,"To answer your question, we need to find the amount from the liquidity that comes from credit in the year of 2017. According to the TEXT, the total liquidity resources at December 31, 2017, were $10831.0. The amount from the liquidity that comes from credit is $4000.0, which is the credit facility 2014 undrawn.
+
+To find the percentage of the liquidity that comes from credit, we can divide the amount from the credit facility by the total liquidity resources and multiply by 100:
+
+($4000.0 / $10831.0) * 100 = 36.92%
+
+So, the percentage of the liquidity that comes from credit in the year of 2017 is approximately 36.92%.",1698,157,1855,7.152923800051212,1,True,True
+E0_direct_v4,17,what was the 2008 value?,1.74,1.74,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the 2008 value is:
+
+$1.74",1475,19,1494,3.7079397002235055,1,False,True
+E0_direct_v4,18,what was the value at the start of the year?,395.0,395.0,True,True,False,ultimo_numero_nao_ano,False,The value at the start of the year was 395.0.,1323,15,1338,3.546570499893278,1,False,True
+E0_direct_v4,19,"and what was the total of benefits obligations in 2018, also in millions?",31.0,162,False,False,False,ultimo_numero_nao_ano,False,"According to the table provided in the TEXT, the total benefits obligations in 2018 was $162 million.",1261,23,1284,3.720861899666488,1,False,False
+E0_direct_v4,20,"how much, then, does that change represent in relation to this 2005 rental income, in percentage?",0.40678,24.6,False,False,False,percentual,False,"To find the percentage change in rental income from 2005 to 2006, we can use the formula:
+
+((2006 rental income - 2005 rental income) / 2005 rental income) * 100
+
+Plugging in the numbers, we get:
+
+((83 - 59) / 59) * 100 = 24.6%
+
+So the change in rental income from 2005 to 2006 represents a 24.6% increase.",1142,98,1240,5.403401800431311,1,True,False
+E0_direct_v4,21,"and what is, in millions, the average tax benefit between those three years?",26.0,26,True,True,False,ultimo_numero_nao_ano,False,"To calculate the average tax benefit between those three years, we need to add the tax benefits for each year and divide by 3.
+
+Tax benefit in 2014: 33 million
+Tax benefit in 2013: 31 million
+Tax benefit in 2012: 14 million
+
+Total tax benefit: 33 + 31 + 14 = 78 million
+
+Average tax benefit: 78 million / 3 = 26 million
+
+So, the average tax benefit between those three years is 26 million.",1479,108,1587,5.785522000398487,1,False,True
+E0_direct_v4,22,"what was the change in r&d expenses from the year of 2016 to 2017, in millions?",12.0,12.0,True,True,False,apos_answer,False,"The change in R&D expenses from 2016 to 2017 is:
+
+$201 million (2017) - $189 million (2016) = $12 million
+
+So, the answer is: 12.0",1160,47,1207,4.109348899684846,1,False,True
+E0_direct_v4,23,what was the net change in revenues from 2003 to 2004?,-20.3,-20.3,True,True,False,ultimo_numero_nao_ano,False,"The net change in revenues from 2003 to 2004 is:
+
+$998.7 (2003 net revenue) - $978.4 (2004 net revenue) = -$20.3 million",779,43,822,3.782137700356543,1,False,True
+E0_direct_v4,24,and the percentage change of this value?,0.97734,-34.5,False,False,False,apos_answer,False,"Based on the provided context, the difference in the fair value of the securities held in decommissioning trust funds and the amounts deposited plus the earnings on the deposits from 2001 to 2002 for Entergy Arkansas is:
+
+$35.3 million (2002) - $69.8 million (2001) = -$34.5 million
+
+So, the answer is -34.5.",1001,83,1084,4.840616799890995,1,True,False
+E0_direct_v4,25,what was the ccg operating income in 2016?,10646.0,10646,True,True,True,numero_puro,False,10646,1033,3,1036,3.042056899983436,1,False,True
+E0_direct_v4,26,and what was the change in value of that stock considering the original amount invested in it in 2008?,227.11,316.43,False,False,False,percentual,False,"To find the change in value of the stock considering the original amount invested in 2008, we need to find the value of DISCB in 2008 and then calculate the percentage change.
+
+According to the table, the value of DISCB in 2008 was $78.53.
+
+To find the change in value, we need to find the value of DISCB in 2012, which is $327.11.
+
+The change in value is:
+
+$327.11 (2012) - $78.53 (2008) = $248.58
+
+The percentage change is:
+
+($248.58 / $78.53) * 100% = 316.43%
+
+So, the value of DISCB increased by 316.43% from 2008 to 2012.",836,165,1001,6.622105900198221,1,False,False
+E0_direct_v4,27,what is the change in value of this investment?,67.45,32.84,False,False,False,ultimo_numero_nao_ano,False,"To find the change in value of the investment, we need to find the difference between the value of the investment in 2007 and the value of the investment in 2005.
+
+According to the table, the value of the investment in 2005 is $205.20 and the value of the investment in 2007 is $238.04.
+
+The change in value is:
+
+$238.04 - $205.20 = $32.84
+
+So, the change in value of the investment is $32.84.",783,109,892,5.3520190003328025,1,False,False
+E0_direct_v4,28,what was the value of e*trade financial corp for year ended 12/07?,73.05,73.05,True,True,False,ultimo_numero_nao_ano,False,The value of e*trade financial corp for the year ended 12/07 is 73.05.,707,23,730,3.290625600144267,1,False,True
+E0_direct_v4,29,what was the difference in accrued trade and consumer promotion liability as of 5/28/06 and 5/29/05?,56.0,56.0,True,True,False,apos_answer,False,"The difference in accrued trade and consumer promotion liability as of 5/28/06 and 5/29/05 is:
+
+$339 million (as of 5/28/06) - $283 million (as of 5/29/05) = $56 million
+
+Answer: 56.0",1525,65,1590,4.821775900200009,1,False,True
+E0_direct_v4,30,"what was the tax benefit realized from option exercises under all incentive plans in 2014, in millions?",33.0,33,True,True,False,ultimo_numero_nao_ano,False,The tax benefit realized from option exercises under all incentive plans in 2014 was approximately $33 million.,1341,22,1363,3.633483599871397,1,False,True
+E0_direct_v4,31,what is the percent change?,0.00689,69.03,False,False,False,percentual,False,"To calculate the percent change, you need to know the value for 2020 and the value for 2021. According to the provided context, the value for 2020 is 1888 and the value for 2021 is 1901.
+
+Percent change = ((2021 value - 2020 value) / 2020 value) * 100
+Percent change = ((1901 - 1888) / 1888) * 100
+Percent change = (13 / 1888) * 100
+Percent change = 0.6903 * 100
+Percent change = 69.03%
+
+So, the percent change is 69.03%.",1153,141,1294,6.418060600291938,1,True,False
+E0_direct_v4,32,and how much does that change represent in relation to this total?,0.13874,16.1,False,False,False,percentual,False,"The change in total proved undeveloped reserves from the beginning of the year to the end of the year is:
+
+728.0 - 627.0 = 101.0
+
+So, the change represents 101.0 mmboe, which is a 16.1% increase from the beginning of the year.",1477,67,1544,4.775821699760854,1,True,False
+E0_direct_v4,33,and what was it in 2009?,526.0,526,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided context, the total number of asbestos cases in 2009 was 526.",1121,21,1142,3.461161999963224,1,False,True
+E0_direct_v4,34,and what was that dividend yield in 2017?,3.573,3.573,True,True,False,percentual,False,"According to the provided text, the dividend yield for 2017 was 3.573%.",1466,20,1486,3.6690106000751257,1,False,True
+E0_direct_v4,35,what is long term debt in 2012?,29.0,29,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the long-term debt in 2012 is $29 million.",1401,21,1422,3.699986499734223,1,False,True
+E0_direct_v4,36,"in that same period, what was the change in the total of current liabilities?",-42.8,42.8,False,False,False,ultimo_numero_nao_ano,False,"To find the change in the total of current liabilities, we can subtract the 2006 value from the 2007 value:
+
+$682.0 (2006) - $639.2 (2007) = $42.8
+
+So, the change in the total of current liabilities from 2006 to 2007 is $42.8.",1342,74,1416,4.940622499678284,1,False,False
+E0_direct_v4,37,how many years are between 2023 and 2008?,15.0,15,True,True,False,ultimo_numero_nao_ano,False,The number of years between 2023 and 2008 is 15.,1238,17,1255,3.5252134995535016,1,False,True
+E0_direct_v4,38,what is the sum of cash provided by operating activities and used by investing activities in 2008?,1184.0,-210,False,False,False,ultimo_numero_nao_ano,False,"The sum of cash provided by operating activities and used by investing activities in 2008 is not mentioned in the provided financial context. The provided context only includes information about the years ended December 31, 2018, 2017, and 2016. Therefore, I cannot provide an answer for 2008.
+
+However, according to the provided context, the sum of cash provided by operating activities and used by investing activities for the years ended December 31, 2018, 2017, and 2016 are:
+
+2018: $1762 million (operating) - $578 million (investing) = $1184 million
+2017: -$799 million (used) - $4123 million (used) = -$4622 million
+2016: $262 million (operating) - $472 million (used) = -$210 million",1109,178,1287,7.3003144999966025,1,False,False
+E0_direct_v4,39,what was the variation in the value of the fidelity national information services inc . from 2007 to 2012?,57.38,56.38,False,False,False,percentual,False,"To calculate the variation in the value of Fidelity National Information Services Inc. from 2007 to 2012, we need to find the percentage change from 2007 to 2012.
+
+The value of Fidelity National Information Services Inc. in 2007 was 100.00, and in 2012 it was 157.38.
+
+The percentage change is:
+
+((157.38 - 100.00) / 100.00) * 100% ≈ 56.38%
+
+So, the value of Fidelity National Information Services Inc. increased by approximately 56.38% from 2007 to 2012.",649,133,782,5.7752869999967515,1,False,False
+E0_direct_v4,40,what is the total value of proceeds from the issuance of employee options during february 2004?,11556103.23,11500000,False,True,False,ultimo_numero_nao_ano,False,"The total value of proceeds from the issuance of employee options during February 2004 is:
+
+$11.19 per share (exercise price) * 1032717 options = $11,500,000",1464,42,1506,4.1040950999595225,1,False,True
+E0_direct_v4,41,what was the difference in the price of apple inc. between 9/30/12 and 9/30/07?,337.0,07,False,False,False,ultimo_numero_nao_ano,False,"To find the difference in the price of Apple Inc. between 9/30/12 and 9/30/07, we can subtract the price on 9/30/07 from the price on 9/30/12.
+
+Price on 9/30/07: $100
+Price on 9/30/12: $437
+
+Difference: $437 - $100 = $337
+
+So, the price of Apple Inc. increased by $337 between 9/30/12 and 9/30/07.",759,112,871,5.48658199980855,1,False,False
+E0_direct_v4,42,"what is the balance in the warranty reserves as of december 31, 2009?",604.0,604000,False,False,False,ultimo_numero_nao_ano,False,"The balance in the warranty reserves as of December 31, 2009, is $604,000.",1006,23,1029,3.5141568002291024,1,False,False
+E0_direct_v4,43,"what is the ratio of the value of freight revenue from the automotive group, 2012 to 2011?",1.19669,1.20,False,True,False,ultimo_numero_nao_ano,False,"To find the ratio of the value of freight revenue from the automotive group in 2012 to 2011, we can divide the value of freight revenue from the automotive group in 2012 by the value of freight revenue from the automotive group in 2011.
+
+Value of freight revenue from the automotive group in 2012: $1807 million
+Value of freight revenue from the automotive group in 2011: $1510 million
+
+Ratio = $1807 million / $1510 million = 1.1987
+
+So, the ratio of the value of freight revenue from the automotive group in 2012 to 2011 is approximately 1.20.",1253,138,1391,6.41154700005427,1,True,True
+E0_direct_v4,44,what was the change in net revenue from 2006 to 2007?,20.8,20.8,True,True,False,apos_answer,False,"The change in net revenue from 2006 to 2007 is:
+
+$486.9 (2007) - $466.1 (2006) = $20.8
+
+So the answer is: 20.8",880,48,928,3.971543800085783,1,False,True
+E0_direct_v4,45,what is the percent of shares not related to post-merger services?,0.15116,15.12,False,False,False,percentual,False,"Based on the provided financial context, the total performance share units granted during the year ended December 31, 2011, was 354660. The fair value of these performance share unit awards is based on the grant date closing stock price of each respective award grant and will apply to the number of units ultimately awarded.
+
+The text also mentions that $7.3 million relates to post-merger services and will be recognized ratably over the remaining service period through 2013.
+
+To find the percent of shares not related to post-merger services, we can subtract the value of shares related to post-merger services from the total value of performance share units granted:
+
+$8.6 million (total fair value of performance share units) - $7.3 million (shares related to post-merger services) = $1.3 million
+
+Now, we can calculate the percentage of shares not related to post-merger services:
+
+($1.3 million / $8.6 million) * 100% ≈ 15.12%
+
+So, the percent of shares not related to post-merger services is approximately 15.12%.",1134,236,1370,8.569666299968958,1,True,True
+E0_direct_v4,46,so what was the percentage change during this time?,1.78431,178.02,False,False,False,percentual,False,"Based on the provided financial context, the percentage change during this time can be calculated as follows:
+
+2009 total operating expenses: $1420
+2008 total operating expenses: $510
+
+Percentage change = ((2009 total operating expenses - 2008 total operating expenses) / 2008 total operating expenses) * 100
+= (($1420 - $510) / $510) * 100
+= (910 / 510) * 100
+= 178.02%
+
+So, the percentage change in total operating expenses between 2008 and 2009 is approximately 178.02%.",1118,126,1244,6.287262400146574,1,True,True
+E0_direct_v4,47,what is that value less 1?,0.044,-11869.0,False,False,False,ultimo_numero_nao_ano,False,The value less 1 is: -11869.0,984,13,997,3.3182235001586378,1,False,False
+E0_direct_v4,48,and what was that for the decrease in interest rates?,82.5,-91.3,False,False,False,ultimo_numero_nao_ano,False,"The answer to the question ""and what was that for the decrease in interest rates?"" is -91.3.",1162,24,1186,3.606917900033295,1,False,False
+E0_direct_v4,49,and what was it in 2007?,28.37,28.37,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided context, the total conduit asset in 2007 was $28.37 billion.",1467,22,1489,3.6583110000938177,1,False,True
+E0_direct_v4,50,what was the difference in operating profit between 2011 and 2012?,92.0,92,True,True,False,ultimo_numero_nao_ano,False,"The difference in operating profit between 2011 and 2012 is:
+
+645 - 737 = -92 million
+
+So, the operating profit decreased by $92 million from 2011 to 2012.",1291,44,1335,4.1500112996436656,1,False,True
+E0_direct_v4,51,what was the change in value of the wti crude oil benchmark from 2009 to 2011?,33.02,33.02,True,True,False,ultimo_numero_nao_ano,False,"To calculate the change in value of WTI crude oil benchmark from 2009 to 2011, we can subtract the 2009 value from the 2011 value:
+
+$95.11 (2011) - $62.09 (2009) = $33.02
+
+So, the value of WTI crude oil benchmark increased by $33.02 from 2009 to 2011.",1353,85,1438,5.13406760012731,1,False,True
+E0_direct_v4,52,what about the total including 2007?,102964.0,26996,False,False,False,ultimo_numero_nao_ano,False,"Based on the provided text, the total contribution expense related to all of its defined contribution plans in 2007 is $26996.",751,28,779,3.4017819999717176,1,False,False
+E0_direct_v4,53,what is the total of letters of credit outstanding for 2006 and 2007?,93.4,93.4,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the total of letters of credit outstanding for 2006 and 2007 is:
+
+2006: $52.4 million
+2007: $41.0 million
+
+So, the total is: $52.4 + $41.0 = $93.4 million",1145,64,1209,4.5918308002874255,1,False,True
+E0_direct_v4,54,what is the change in value of intrinsic value from 2016 to 2018?,-9.0,-9,True,True,False,ultimo_numero_nao_ano,False,The change in value of intrinsic value from 2016 to 2018 is $9 - $18 = -$9.,380,26,406,3.1616410999558866,1,False,True
+E0_direct_v4,55,what is the average balance for these years?,8.5,6160.5,False,False,False,ultimo_numero_nao_ano,False,"To find the average balance for these years, we need to calculate the average of the net total long-term debt for 2013 and 2014.
+
+Net total long-term debt for 2013: $6152
+Net total long-term debt for 2014: $6169
+
+Change in balance: $6169 - $6152 = 17.0 (as given in the history)
+
+Average balance: ($6152 + $6169) / 2 = $6160.5
+
+So, the average balance for these years is $6160.5.",1398,119,1517,5.970935000106692,1,False,False
+E0_direct_v4,56,what was the net change in value?,-963.0,-964.0,False,True,False,ultimo_numero_nao_ano,False,"To find the net change in value, subtract the value at the start from the value at the end:
+
+3859.0 - 4822.0 = -964.0
+
+So, the net change in value is -964.0.",1368,51,1419,4.496336300391704,1,False,True
+E0_direct_v4,57,what return rate does this represent?,1.8581,185.81,False,False,False,percentual,False,"Based on the provided financial context, the return rate represented is the increase in value of an investment in Delphi Automotive PLC from 2011 to 2013, which is:
+
+285.81 - 100.00 = 185.81
+
+To find the return rate, divide the increase in value by the initial investment and multiply by 100:
+
+(185.81 / 100) * 100 = 185.81%
+
+So, the return rate is 185.81%.",850,100,950,5.147280599921942,1,True,True
+E0_direct_v4,58,"and only from 2011 to 2012, what was the change in the company 2019s cash, cash equivalents and marketable securities held by foreign subsidiaries?",28.3,28.3,True,True,False,apos_answer,False,"Based on the provided financial context, the change in the company's cash, cash equivalents, and marketable securities held by foreign subsidiaries from 2011 to 2012 is:
+
+$82.6 billion (as of September 29, 2012) - $54.3 billion (as of September 24, 2011) = $28.3 billion
+
+So, the answer is: 28.3",1241,87,1328,5.097035999875516,1,False,True
+E0_direct_v4,59,how many shares were repurchased during 2017?,3.4,1.8,False,False,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the answer to the question ""how many shares were repurchased during 2017?"" is:
+
+1.8 million",2224,31,2255,4.431127900257707,1,False,False
+E0_direct_v4,60,what is the percent change times 100?,1.47092,2.49,False,False,False,percentual,False,"To calculate the percent change, you need to find the difference between the beginning and ending balances, and then divide that by the beginning balance. 
+
+The beginning balance is 441.9 and the ending balance is 430.9. 
+
+The difference is 11.0. 
+
+The percent change is (11.0 / 441.9) * 100 = 2.49%. 
+
+However, you asked for the percent change times 100, which is 249.",1310,99,1409,5.558952099643648,1,True,False
+E0_direct_v4,61,and what is this representation as a portion of the 2009 total?,0.97656,1.5625,False,False,False,ultimo_numero_nao_ano,False,"To find the representation of the 2010 total as a portion of the 2009 total, we need to divide the 2010 total by the 2009 total.
+
+2010 total: $2.5
+2009 total: $1.6
+
+So, the representation of the 2010 total as a portion of the 2009 total is:
+
+$2.5 ÷ $1.6 = 1.5625",1061,92,1153,5.176439499948174,1,True,False
+E0_direct_v4,62,"and as of the last year of this period, what percentage of the aggregate borrowing capacity was set to expire in 2019?",0.32,34.78,False,False,False,apos_answer,False,"Based on the provided financial context, the total borrowing capacity of Entergy Arkansas as of December 31, 2017 is $150 million (credit facility) + $80 million (nuclear fuel company variable interest entity credit facility) = $230 million.
+
+As of the last year of this period (2017), what percentage of the aggregate borrowing capacity was set to expire in 2019?
+
+The $80 million credit facility of the nuclear fuel company variable interest entity is set to expire in May 2019. This represents 34.78% of the total borrowing capacity ($80 million / $230 million).
+
+Answer: 34.78%",1333,132,1465,6.291320600081235,1,True,False
+E0_direct_v4,63,what was the 2006 value?,100.0,100,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the 2006 value is $100.",769,17,786,3.2405678001232445,1,False,True
+E0_direct_v4,64,and how much was the total number of customers as a percentage of this total amount?,0.27052,84.8,False,False,False,percentual,False,"Based on the provided context, the total number of customers as of December 31, 2014, is 3,219,192. To find the percentage of this total amount, we can divide the number of customers in each state by the total number of customers and multiply by 100.
+
+For example, in New Jersey, the number of customers is 648,066, which is 20.2% of the total number of customers. Similarly, in Pennsylvania, the number of customers is 666,415, which is 20.7% of the total number of customers.
+
+To find the total percentage of the total number of customers, we can add up the percentages for each state:
+
+20.2% (New Jersey) + 20.7% (Pennsylvania) + ... + 15.1% (Other) = 84.8%
+
+Since the total number of customers is 3,219,192, the total percentage is:
+
+84.8%
+
+Therefore, the total number of customers as a percentage of the total amount is 84.8%.",1630,221,1851,8.571689900010824,1,True,False
+E0_direct_v4,65,so what was the percentage change during this time?,0.21795,6,False,False,False,percentual,False,"Based on the provided financial context, the percentage change in fee revenue from 2000 to 2001 is 6%.",1187,26,1213,3.760576399974525,1,True,False
+E0_direct_v4,66,what is the net change?,95.6,95.6,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided context, the net change is:
+
+2885.6 (2009) - 2790.0 (2008) = 95.6",1296,35,1331,4.009800899773836,1,False,True
+E0_direct_v4,67,so what was the percentage change during this time?,0.28148,28.1,False,False,False,percentual,False,"To calculate the percentage change, you need to know the original value and the new value. In this case, the original value is 270.0 (as of 9/30/06) and the new value is 346.0 (as of 9/29/07).
+
+The difference in value is 76.0 (346.0 - 270.0).
+
+To calculate the percentage change, you can use the following formula:
+
+((new value - original value) / original value) * 100
+
+Plugging in the numbers, you get:
+
+((346.0 - 270.0) / 270.0) * 100 = 28.1%
+
+So, the inventory value increased by 28.1% from 9/30/06 to 9/29/07.",1223,168,1391,7.0464360998012125,1,True,True
+E0_direct_v4,68,what was the balance in 2005?,46.0,47,False,False,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the balance in the allowance for doubtful accounts in 2005 was:
+
+$47 million",758,25,783,3.4437011000700295,1,False,False
+E0_direct_v4,69,"in the year of 2018, what was the total net cash used?",2054.0,-755.1,False,False,False,ultimo_numero_nao_ano,False,The total net cash used in 2018 was -755.1 million.,1336,17,1353,3.695485800039023,1,False,False
+E0_direct_v4,70,what was the value in 2013?,5.27,5.27,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the value in 2013 was $5.27.",1195,20,1215,3.5153858000412583,1,False,True
+E0_direct_v4,71,and the percentage of the maturities that are part of the total maturities in 2008?,0.05768,5.74,False,False,False,apos_answer,False,"Based on the provided financial context, the percentage of the maturities that are part of the total maturities in 2008 is:
+
+$193,101 (2008 maturities) / $3,347,676 (total maturities) = 0.0574 or 5.74%
+
+So, the answer is 5.74%.",1250,76,1326,4.890932899899781,1,True,True
+E0_direct_v4,72,"what was, then, the change over the year?",-1.9,1.9,False,False,False,ultimo_numero_nao_ano,False,"To calculate the change over the year, we need to find the difference between the amortization expense in 2009 and the amortization expense in 2008.
+
+Amortization expense in 2009: $7.4 million
+Amortization expense in 2008: $9.3 million
+
+Change over the year: $9.3 million - $7.4 million = $1.9 million
+
+So, the change over the year is $1.9 million.",987,101,1088,5.355816300027072,1,False,False
+E0_direct_v4,73,what is the sum of the total minimum lease payments for both operating and capital leases?,7807.0,845.0,False,False,False,apos_answer,False,"Based on the provided financial context, the sum of the total minimum lease payments for both operating and capital leases is:
+
+$657 (operating) + $188 (capital) = $845
+
+So, the answer is 845.0.",1044,50,1094,4.163163300137967,1,False,False
+E0_direct_v4,74,what was the value of the dow jones u.s. technology supersector index in 2011?,100.0,130,False,False,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the value of the Dow Jones U.S. Technology Supersector Index in 2011 was $130.",732,29,761,3.4395213997922838,1,False,False
+E0_direct_v4,75,what is the amount lost from the bond authorization to the withdrawn for brentwood tennessee store support center?,2.7,2.7,True,True,False,apos_answer,False,"To find the amount lost from the bond authorization to the withdrawn for Brentwood Tennessee store support center, we need to subtract the amount drawn from the amount authorized.
+
+Amount authorized: $78.0 million
+Amount drawn: $75.3 million
+
+Amount lost: $78.0 million - $75.3 million = $2.7 million
+
+Answer: $2.7 million",1106,79,1185,4.931900799740106,1,False,True
+E0_direct_v4,76,what about percentage change?,28.57143,28.57,False,True,False,percentual,False,"To find the percentage change in pretax pension expense from 2014 to 2015, we need to calculate the difference between the two years and then divide by the original value.
+
+Original value: $7 million (2014)
+New value: $9 million (2015)
+Difference: $2 million
+
+Percentage change: ($2 million / $7 million) * 100% = 28.571%
+
+So, the pretax pension expense increased by 28.57% from 2014 to 2015.",1419,108,1527,5.8203168995678425,1,True,True
+E0_direct_v4,77,what was the value of outstanding commercial papers in 2007?,2.36,0.23,False,False,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the value of outstanding commercial papers in 2007 was $2.36 billion.
+
+The value of outstanding commercial papers in 2008 was $2.59 billion.
+
+Therefore, the change in value of commercial papers outstanding from 2007 to 2008 is:
+
+$2.59 billion - $2.36 billion = $0.23 billion",1092,79,1171,4.852751600090414,1,False,False
+E0_direct_v4,78,and what was it in 2007?,40.0,40,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided context, the reclassification of non-controlling interests in 2007 was $40 million.",971,24,995,3.5122326998971403,1,False,True
+E0_direct_v4,79,what is the net change in operating leases from 2019 to 2020?,-190.0,190.0,False,False,False,apos_answer,False,"The net change in operating leases from 2019 to 2020 is:
+
+$2078 (2019) - $1888 (2020) = $190
+
+Answer: 190.0",1092,42,1134,3.8897489001974463,1,False,False
+E0_direct_v4,80,and what is the percentage this change represents of those losses in 2005?,0.70705,-11.0,False,False,False,percentual,False,"To find the percentage change, first, find the change in accumulated other comprehensive earnings (loss) from 2005 to 2006:
+
+2006 change - 2005 change = 119.1 - 133.9 = -14.8
+
+Then, find the percentage change:
+
+(-14.8 / 133.9) * 100% ≈ -11.0%
+
+So, the percentage change represents a -11.0% decrease in accumulated other comprehensive earnings (loss) from 2005 to 2006.",1407,110,1517,5.731539799831808,1,True,False
+E0_direct_v4,81,"combined, what was the total net operating loss that must be utilized before expiration between 2017 and 2033?",32.2,32.2,True,True,False,ultimo_numero_nao_ano,False,The total net operating loss that must be utilized before expiration between 2017 and 2033 is $12.4 million (foreign net operating loss carryforwards) + $19.8 million (U.S. net operating loss carryforwards) = $32.2 million.,1086,59,1145,4.3236661003902555,1,False,True
+E0_direct_v4,82,what was the change in net revenue between the two years?,-31.9,31.9,False,False,False,ultimo_numero_nao_ano,False,"The change in net revenue between the two years is:
+
+959.2 - 991.1 = -31.9
+
+So, the net revenue decreased by $31.9 million from 2007 to 2008.",777,47,824,3.8687424999661744,1,False,False
+E0_direct_v4,83,what would be the change in the profit of marketable securities if they were sold at fair value?,3.2,3.2,True,True,False,apos_answer,False,"The change in profit of marketable securities if they were sold at fair value would be:
+
+$28.9 million (available for sale fair value) - $25.7 million (available for sale cost) = $3.2 million
+
+Answer: 3.2",834,56,890,4.146017599850893,1,False,True
+E0_direct_v4,84,what was the balance of unpaid losses in the beginning of 2008?,7603.0,24.2,False,False,False,ultimo_numero_nao_ano,False,The balance of unpaid losses in the beginning of 2008 was $24.2 billion.,1335,20,1355,3.597792200278491,1,False,False
+E0_direct_v4,85,so by how much did this value change over these years?,20.8,20.8,True,True,False,ultimo_numero_nao_ano,False,"The value of net revenue in 2007 was $486.9 and in 2006 was $466.1. To find the change in value, subtract the 2006 value from the 2007 value:
+
+$486.9 - $466.1 = $20.8
+
+So, the value of net revenue changed by $20.8 over these years.",909,78,987,4.638622200116515,1,False,True
+E0_direct_v4,86,"as of april 3, 2010, what was the amount of doors in the wholesale segment in the europe geography?",4421.0,4421,True,True,False,apos_answer,False,The answer is: 4421,854,8,862,3.0589772001840174,1,False,True
+E0_direct_v4,87,"and throughout the precedent year, what was the decline in containerboard sales volume to external domestic and export customers, in tons?",32000.0,-32000,False,False,False,apos_answer,False,"Based on the provided financial context, the decline in containerboard sales volume to external domestic and export customers, in tons, was 6.7% to 445,000 tons for the year ended December 31, 2003, from 477,000 tons in the comparable period of 2002.
+
+Answer: -32,000 tons",1385,71,1456,4.763697100337595,1,False,False
+E0_direct_v4,88,what is the net change in the total consolidated revenues from 2011 to 2012?,182.0,182.0,True,True,False,ultimo_numero_nao_ano,False,"To calculate the net change in total consolidated revenues from 2011 to 2012, we can subtract the 2011 total consolidated revenues from the 2012 total consolidated revenues.
+
+2012 total consolidated revenues: $5807.6 million
+2011 total consolidated revenues: $5625.6 million
+
+Net change in total consolidated revenues: $5807.6 million - $5625.6 million = $182.0 million
+
+So, the net change in total consolidated revenues from 2011 to 2012 is $182.0 million.",1004,115,1119,5.697305700276047,1,False,True
+E0_direct_v4,89,what was the total interest income in 2012?,29.5,29.5,True,True,False,ultimo_numero_nao_ano,False,The total interest income in 2012 was $29.5.,1168,15,1183,3.315364300273359,1,False,True
+E0_direct_v4,90,what was the net change in value?,93245.0,93425,False,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the net change in value is:
+
+666009.0 - 572764.0 = 93425.0
+
+So, the net change in value is 93,425.",1001,45,1046,3.9491991996765137,1,False,True
+E0_direct_v4,91,"what was the total amount of resale agreements in 2008, in millions?",20800.0,200265,False,False,False,apos_answer,False,"To answer the question, we need to find the total amount of resale agreements in 2008, which is mentioned in the table as ""securities purchased under resale agreements (a)"".
+
+According to the table, the total amount of securities purchased under resale agreements in 2008 was $200,265 million.
+
+So, the answer is: 200,265",1644,74,1718,5.150230700150132,1,False,False
+E0_direct_v4,92,and what was it in 2016?,26.4,26.4,True,True,False,ultimo_numero_nao_ano,False,"The answer to the question ""and what was it in 2016?"" is:
+
+26.4",943,21,964,3.4632691997103393,1,False,True
+E0_direct_v4,93,"combined, what was the value of tax benefits realized from option exercises under all incentive plans for 2014 and 2013?",64.0,31,False,False,False,ultimo_numero_nao_ano,False,"The value of tax benefits realized from option exercises under all incentive plans for 2014 and 2013 was approximately $33 million and $31 million, respectively.",1346,34,1380,3.8964203000068665,1,False,False
+E0_direct_v4,94,what was the value of the disca in 2016?,133.81,133.81,True,True,False,ultimo_numero_nao_ano,False,The value of DISCA in 2016 was $133.81.,1501,16,1517,3.627816100139171,1,False,True
+E0_direct_v4,95,what was the amount in received cash dividends in the year of 2010?,71.0,71.0,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the answer to the question ""what was the amount in received cash dividends in the year of 2010?"" is:
+
+71.0",1296,35,1331,4.0001189997419715,1,False,True
+E0_direct_v4,96,what was the change in value of cds that were excluded between 2013 and 2014?,4.37,4.37,True,True,False,ultimo_numero_nao_ano,False,"To calculate the change in value of CDS that were excluded between 2013 and 2014, we need to find the difference between the average CDS balance in 2014 and the average CDS balance in 2013.
+
+According to the text, the average CDS balance in 2014 was $6.87 billion and the average CDS balance in 2013 was $2.50 billion.
+
+The change in value of CDS that were excluded between 2013 and 2014 is:
+
+$6.87 billion - $2.50 billion = $4.37 billion
+
+So, the change in value of CDS that were excluded between 2013 and 2014 is $4.37 billion.",1261,151,1412,6.7419476001523435,1,False,True
+E0_direct_v4,97,what was the amount in received cash dividends in the year of 2011?,78.0,78,True,True,False,ultimo_numero_nao_ano,False,The amount in received cash dividends in the year of 2011 was $78 million.,1237,19,1256,3.574774600099772,1,False,True
+E0_direct_v4,98,what is the percent change?,-0.17266,-17.12,False,False,False,apos_answer,False,"To calculate the percent change, you need to find the difference between the start and end balances, then divide that by the start balance, and finally multiply by 100.
+
+The start balance is $278, and the end balance is $230. The difference is $48. The percent change is:
+
+($48 / $278) * 100 = -17.12%
+
+So, the answer is -17.12%.",846,86,932,4.853044299874455,1,True,True
+E0_direct_v4,99,what was the balance of total ishares in 2013?,914372.0,914372,True,True,False,ultimo_numero_nao_ano,False,"Based on the provided financial context, the balance of total iShares in 2013 was $914,372.",1635,24,1659,3.9144429001025856,1,False,True
